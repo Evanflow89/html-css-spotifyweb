@@ -31,6 +31,24 @@ body {
     padding-top: 10px;
 }
 
+.name-Playlist ul li {
+    color: #717171;
+    list-style: none;
+    font-weight: 600;
+    padding: 5px 15px;
+    font-size: 14px;
+}
+
+.user h3 {
+    color: white;
+    font-size: 16px;
+}
+
+.fa-circle-down {
+    font-size: 12px;
+    color: #989898;
+}
+
 /*------------
     BUTTONS   
 ------------*/
@@ -43,6 +61,16 @@ body {
     background-color: inherit;
     border: 1px solid #e1e1e2;
     margin-right: 4px;
+    cursor: pointer;
+}
+
+.btn-List {
+    color: #a3a3a3;
+    font-size: 36px;
+    background-color: black;
+    border: none;
+    padding-left: 15px;
+    padding-top: 5px;
     cursor: pointer;
 }
 
@@ -61,11 +89,14 @@ header {
 }
 
 .side-Bar {
+    display: flex;
     width: 200px;
-    height: calc(100vh - 160px);
+    height: calc(100vh - 80px);
     background-color: black;
     z-index: 12;
     flex-direction: column;
+    overflow-y: auto;
+    position: relative;
 }
 
 
@@ -91,6 +122,7 @@ header {
     color: white;
     text-decoration: none;
     font-size: 14px;
+    cursor: pointer;
 }
 
 .nav:first-of-type {
@@ -100,6 +132,37 @@ header {
 
 footer {
     width: 100%;
-    height: 100px;
-    background-color: aquamarine;
+    height: 80px;
+    background-color: #282828;
+}
+
+.btn-Play {
+    display: flex;
+    align-items: center;
+    color: #717171;
+    font-weight: 600;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.install a {
+    color: #717171;
+    text-decoration: none;
+    padding-left: 15px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.icon {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 10px 0 0 15px;
+}
+
+.icon img {
+    width: 25px;
+    background-color: #717171;
+    border-radius: 50%;
 }
