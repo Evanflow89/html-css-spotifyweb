@@ -100,8 +100,8 @@ main {
 }
 
 .content {
-    padding-top: 60px;
-    display: flex;
+    padding-top: 80px;
+    width: calc(100% - 200px);
 }
 
 .side-Bar {
@@ -204,9 +204,11 @@ footer {
 }
 
 
-.navigation ul li {
-    display: inline-block;
-    text-align: center;
+.navigation ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
 }
 
 .navigation ul li a {
@@ -232,7 +234,7 @@ footer {
     width: 40px;
 }
 
-.now-play {
+.col-left {
     display: flex;
     flex-direction: row;
 }
