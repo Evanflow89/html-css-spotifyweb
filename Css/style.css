@@ -112,6 +112,11 @@ h5 {
     cursor: pointer;
 }
 
+.upgrade:hover {
+    padding: 12px 27px;
+    box-shadow: 1px #fff;
+}
+
 .btn-List {
     color: #a3a3a3;
     font-size: 36px;
@@ -213,6 +218,9 @@ footer {
     height: 80px;
     background-color: #282828;
     display: flex;
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
 
 .btn-Play {
@@ -281,6 +289,48 @@ footer {
 }
 
 /*------------
+    HOVER   
+------------*/
+
+.navigation ul li a:hover {
+    color: white;
+}
+
+.nav span:hover {
+    color: white;
+}
+
+.btn-Play:hover {
+    color: white;
+}
+
+.name-Playlist ul li:hover {
+    color: white;
+}
+
+.install a:hover {
+    color: white;
+}
+
+.band-name span:hover {
+    color: white;
+}
+
+.icons i:hover {
+    color: white;
+}
+
+.player i:hover {
+    padding: 2px;
+    cursor: pointer;
+}
+
+.time-barInside:hover,
+.volume-barInside:hover {
+    background-color: #adff2f;
+}
+
+/*------------
      MAIN   
 ------------*/
 
@@ -306,7 +356,7 @@ footer {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.4);
     opacity: 0;
 }
 
