@@ -53,6 +53,11 @@ body {
     font-size: 14px;
 }
 
+.content h4 {
+    font-size: 14px;
+    padding: 5px 10px 20px;
+}
+
 h5 {
     color: white;
 }
@@ -147,6 +152,7 @@ main {
 .content {
     padding-top: 80px;
     width: calc(100% - 200px);
+    overflow-y: auto;
 }
 
 .side-Bar {
@@ -276,6 +282,10 @@ footer {
 
 .imageAlbum img {
     width: 100%;
+}
+
+.imageAlbum.Round img {
+    border-radius: 50%;
 }
 
 .description {
