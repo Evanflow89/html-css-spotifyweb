@@ -300,7 +300,7 @@ footer {
     position: relative;
 }
 
-.imageAlbum.overlay {
+.overlay {
     width: 100%;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.6);
