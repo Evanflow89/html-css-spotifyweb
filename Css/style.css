@@ -93,7 +93,7 @@ header {
     position: fixed;
 }
 
-.main {
+main {
     height: calc(100vh - 80px);
     display: flex;
     flex-direction: row;
@@ -150,6 +150,7 @@ footer {
     width: 100%;
     height: 80px;
     background-color: #282828;
+    display: flex;
 }
 
 .btn-Play {
@@ -196,4 +197,42 @@ footer {
     width: 90%;
     text-align: center;
     color: #717171;
+}
+
+.navigation {
+    width: 100%;
+}
+
+
+.navigation ul li {
+    display: inline-block;
+    text-align: center;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #7d7f84;
+}
+
+/*------------
+    FOOTER   
+------------*/
+
+.col-left,
+.col-right {
+    width: 25%;
+}
+
+.col-center {
+    width: 50%;
+}
+
+.now-play img {
+    width: 40px;
+}
+
+.now-play {
+    display: flex;
+    flex-direction: row;
 }
