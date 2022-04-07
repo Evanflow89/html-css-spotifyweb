@@ -330,6 +330,19 @@ footer {
     background-color: #adff2f;
 }
 
+.time-barInside:hover::after,
+.volume-barInside:hover::after {
+    content: "";
+    display: block;
+    background-color: #c1c1c1;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: -3px;
+    right: 0;
+}
+
 /*------------
      MAIN   
 ------------*/
@@ -356,8 +369,13 @@ footer {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
     opacity: 0;
+}
+
+
+.overlay:hover {
+    opacity: 1;
 }
 
 .rounded {
@@ -482,6 +500,7 @@ footer {
     height: 5px;
     width: 100px;
     background-color: #c1c1c1;
+    position: relative;
 
 }
 
