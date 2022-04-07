@@ -310,6 +310,10 @@ footer {
     opacity: 0;
 }
 
+.rounded {
+    border-radius: 50%;
+}
+
 .overlay:hover {
     opacity: 1;
 }
