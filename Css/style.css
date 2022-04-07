@@ -50,6 +50,10 @@ body {
     color: #989898;
 }
 
+.fa-circle-play {
+    font-size: 25px;
+}
+
 /*------------
     BUTTONS   
 ------------*/
@@ -228,6 +232,10 @@ footer {
 
 .col-center {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .now-play img {
@@ -236,5 +244,45 @@ footer {
 
 .col-left {
     display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.now-play {
+    display: flex;
     flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.time,
+.player {
+    display: flex;
+    justify-content: center;
+}
+
+.player {
+    gap: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.time {
+    align-items: center;
+}
+
+.time-bar {
+    height: 5px;
+    width: 500px;
+    background-color: #5a5a5a;
+}
+
+.time-barInside {
+    height: 5px;
+    width: 100px;
+    background-color: #c1c1c1;
+
 }
