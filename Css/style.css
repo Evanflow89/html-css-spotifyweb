@@ -166,6 +166,17 @@ main {
 
 }
 
+.side-btn img {
+    width: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #878787;
+    font-weight: 600;
+
+}
+
 
 .logo {
     height: 60px;
@@ -257,6 +268,7 @@ footer {
 
 .navigation ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
     list-style: none;
@@ -282,6 +294,16 @@ footer {
 
 .imageAlbum img {
     width: 100%;
+}
+
+.imageAlbum {
+    position: relative;
+}
+
+.imageAlbum.overlay {
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .imageAlbum.Round img {
