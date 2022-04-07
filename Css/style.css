@@ -14,6 +14,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #141922;
 }
 
 .logo h1 {
@@ -41,7 +42,7 @@ body {
 
 .user h3 {
     color: white;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .fa-circle-down {
@@ -55,9 +56,11 @@ body {
 
 .upgrade {
     text-transform: uppercase;
-    padding: 5px 20px;
+    padding: 10px 25px;
     border-radius: 20px;
     color: #e1e1e2;
+    font-weight: 600;
+    font-size: 12px;
     background-color: inherit;
     border: 1px solid #e1e1e2;
     margin-right: 4px;
@@ -79,7 +82,9 @@ body {
 ------------*/
 
 header {
-    width: 100%;
+    width: calc(100% - 200px);
+    top: 0;
+    right: 0;
     height: 60px;
     background-color: rgba(0, 0, 0, 0.9);
     display: flex;
@@ -88,15 +93,26 @@ header {
     position: fixed;
 }
 
+.main {
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    padding-top: 60px;
+    display: flex;
+}
+
 .side-Bar {
     display: flex;
-    width: 200px;
     height: calc(100vh - 80px);
+    width: 200px;
     background-color: black;
     z-index: 12;
     flex-direction: column;
-    overflow-y: auto;
-    position: relative;
+    flex-shrink: 0;
+
 }
 
 
@@ -145,6 +161,7 @@ footer {
     cursor: pointer;
 }
 
+
 .install a {
     color: #717171;
     text-decoration: none;
@@ -158,11 +175,25 @@ footer {
     display: flex;
     gap: 5px;
     align-items: center;
-    padding: 10px 0 0 15px;
+    padding: 5px 0 0 15px;
 }
 
 .icon img {
     width: 25px;
     background-color: #717171;
     border-radius: 50%;
+    padding: 5px 6px;
+}
+
+.user {
+    margin-top: auto;
+    padding-bottom: 5px;
+}
+
+.break {
+    display: block;
+    margin: 10px 0;
+    width: 90%;
+    text-align: center;
+    color: #717171;
 }
