@@ -54,6 +54,26 @@ body {
     font-size: 25px;
 }
 
+.col-left h5 {
+    color: white;
+    font-size: 12px;
+}
+
+.band-name span {
+    color: #878787;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.icons {
+    color: #878787;
+    padding: 0 20px;
+}
+
+.fa-heart {
+    padding: 0 10px;
+}
+
 /*------------
     BUTTONS   
 ------------*/
@@ -242,11 +262,17 @@ footer {
     width: 40px;
 }
 
-.col-left {
+.col-left,
+.col-right {
     display: flex;
     align-items: center;
-    padding-left: 20px;
+    padding: 0 20px;
 }
+
+.col-right {
+    justify-content: flex-end;
+}
+
 
 .now-play {
     display: flex;
@@ -266,6 +292,7 @@ footer {
     color: white;
     display: flex;
     align-items: center;
+    padding-bottom: 10px;
 }
 
 
@@ -274,15 +301,40 @@ footer {
     align-items: center;
 }
 
-.time-bar {
+.time span {
+    padding: 0 20px;
+    color: white;
+    font-size: 12px;
+}
+
+.time-bar,
+.volume-bar {
     height: 5px;
     width: 500px;
     background-color: #5a5a5a;
 }
 
-.time-barInside {
+.volume-bar {
+    width: 200px;
+}
+
+.time-barInside,
+.volume-barInside {
     height: 5px;
     width: 100px;
     background-color: #c1c1c1;
 
+}
+
+.volume-barInside {
+    width: 40px;
+}
+
+.volume {
+    color: white;
+    font-size: 12px;
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+    align-items: center;
 }
