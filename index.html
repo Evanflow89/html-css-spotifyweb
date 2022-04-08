@@ -27,23 +27,26 @@
         <section class="side-Bar">
             <div class="logo">
                 <img src="spotify/img/favicon.ico" alt="Logo Spotify">
-                <h1>Spotify</h1>
+                <h1 id="logoS">Spotify</h1>
             </div>
             <div class="side-btn">
-                <div class="nav"><a href="#"><img src="spotify/img/home.svg" alt="Home Button"><span> Home</span></a>
+                <div class="nav"><a href="#"><img src="spotify/img/home.svg" alt="Home Button"><span class="hide">
+                            Home</span></a>
                 </div>
-                <div class="nav"><a href="#"><img src="spotify/img/search.svg" alt="Search Button"><span>
+                <div class="nav side"><a href="#"><img src="spotify/img/search.svg" alt="Search Button"><span
+                            class="hide">
                             Cerca</span></a></div>
-                <div class="nav"><a href="#"><img src="spotify/img/libreria.svg" alt="Library Button"><span> La tua
+                <div class="nav side"><a href="#"><img src="spotify/img/libreria.svg" alt="Library Button"><span
+                            class="hide"> La tua
                             libreria</span></a></div>
             </div>
-            <div class="playlist">
+            <div class="playlist hide">
                 <h3>Playlist</h3>
                 <div class="btn-Play">
                     <button class="btn-List"><i class="fa-solid fa-square-plus"></i></button>
-                    <span>Crea Playlist</span>
+                    <span class="hide">Crea Playlist</span>
                 </div>
-                <div class="name-Playlist">
+                <div class="name-Playlist hide">
                     <ul>
                         <li>Nome Playlist</li>
                         <li>Nome Playlist</li>
@@ -56,11 +59,12 @@
                 </div>
             </div>
             <div class="user">
-                <div class="install"><a href="#"><i class="fa-solid fa-circle-down"></i> Installa App</a></div>
-                <hr class="break">
+                <div class="install"><a href="#"><i class="fa-solid fa-circle-down"></i> <span class="hide">Installa
+                            App</span></a></div>
+                <hr class="break hide">
 
                 <div class="icon"><img src="spotify/img/profile.svg" alt="Icon Profile">
-                    <h3>John Doe</h3>
+                    <h3 class="hide">John Doe</h3>
                 </div>
 
             </div>

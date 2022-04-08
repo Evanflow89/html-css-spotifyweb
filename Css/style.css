@@ -469,6 +469,7 @@ footer {
 .player {
     display: flex;
     justify-content: center;
+    flex-shrink: 2;
 }
 
 .player {
@@ -527,6 +528,15 @@ footer {
 /*------------
   RESPONSIVE   
 ------------*/
+@media screen and (max-width:1220px) {
+    .icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 5px;
+    }
+}
 
 @media screen and (max-width:700px) {
     .card {
@@ -544,5 +554,42 @@ footer {
     }
 
 
+
+}
+
+
+@media screen and (max-width:600px) {
+
+    .hide {
+        display: none;
+    }
+
+    #logoS {
+        display: none;
+    }
+
+    .side-Bar {
+        width: 50px;
+        align-content: center;
+    }
+
+    .install {
+        padding-left: 6px;
+    }
+
+    .nav.side {
+        padding-left: 17px;
+    }
+
+    header,
+    .content {
+        width: calc(100% - 50px);
+    }
+
+    .card {
+        width: calc(100% / 2 - 10px);
+        padding: 10px;
+        flex-wrap: wrap;
+    }
 
 }
