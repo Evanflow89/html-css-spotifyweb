@@ -536,6 +536,24 @@ footer {
         justify-content: center;
         padding-left: 5px;
     }
+
+    .time-bar {
+        width: 350px;
+    }
+
+    .time-barInside {
+        width: 70px;
+    }
+
+    .volume-bar {
+        width: 120px;
+    }
+
+    .volume-barInside {
+        width: 25px;
+    }
+
+
 }
 
 @media screen and (max-width:700px) {
@@ -553,7 +571,21 @@ footer {
         padding-left: 5px;
     }
 
+    .time-bar {
+        width: 250px;
+    }
 
+    .time-barInside {
+        width: 40px;
+    }
+
+    .volume-bar {
+        width: 80px;
+    }
+
+    .volume-barInside {
+        width: 20px;
+    }
 
 }
 
@@ -590,6 +622,22 @@ footer {
         width: calc(100% / 2 - 10px);
         padding: 10px;
         flex-wrap: wrap;
+    }
+
+    .time-bar {
+        width: 150px;
+    }
+
+    .time-barInside {
+        width: 30px;
+    }
+
+    .volume-bar {
+        width: 30px;
+    }
+
+    .volume-barInside {
+        width: 5px;
     }
 
 }
