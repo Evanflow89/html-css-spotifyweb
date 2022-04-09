@@ -92,7 +92,17 @@ h5 {
 }
 
 .navigation ul li:first-of-type {
-    border-bottom: 2px solid #adff2f;
+    position: relative;
+}
+
+.navigation ul li:first-of-type::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 40px;
+    background-color: #adff2f;
+    right: 30px;
 }
 
 /*------------
