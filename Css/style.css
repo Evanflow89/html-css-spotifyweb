@@ -538,19 +538,19 @@ footer {
     }
 
     .time-bar {
-        width: 350px;
+        max-width: 350px;
     }
 
     .time-barInside {
-        width: 70px;
+        max-width: 70px;
     }
 
     .volume-bar {
-        width: 120px;
+        max-width: 120px;
     }
 
     .volume-barInside {
-        width: 25px;
+        max-width: 25px;
     }
 
 
@@ -571,21 +571,23 @@ footer {
         padding-left: 5px;
     }
 
+
     .time-bar {
-        width: 250px;
+        max-width: 150px;
     }
 
     .time-barInside {
-        width: 40px;
+        max-width: 30px;
     }
 
     .volume-bar {
-        width: 80px;
+        max-width: 80px;
     }
 
     .volume-barInside {
-        width: 20px;
+        max-width: 20px;
     }
+
 
 }
 
@@ -624,20 +626,20 @@ footer {
         flex-wrap: wrap;
     }
 
-    .time-bar {
-        width: 150px;
+    .time-bar,
+    .time-barInside {
+        display: none;
     }
 
-    .time-barInside {
-        width: 30px;
-    }
+
 
     .volume-bar {
-        width: 30px;
+        max-width: 30px;
     }
 
     .volume-barInside {
-        width: 5px;
+        max-width: 5px;
     }
+
 
 }
