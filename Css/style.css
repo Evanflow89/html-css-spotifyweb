@@ -563,6 +563,15 @@ footer {
         max-width: 25px;
     }
 
+    .col-left,
+    .col-right {
+        max-width: 25%;
+    }
+
+    .col-center {
+        max-width: 50%;
+    }
+
 
 }
 
@@ -636,9 +645,12 @@ footer {
         flex-wrap: wrap;
     }
 
-    .time-bar,
+    .time-bar {
+        max-width: 100px;
+    }
+
     .time-barInside {
-        display: none;
+        max-width: 18px;
     }
 
 
@@ -648,7 +660,16 @@ footer {
     }
 
     .volume-barInside {
-        max-width: 5px;
+        max-width: 10px;
+    }
+
+    .col-left,
+    col-right {
+        max-width: 25%;
+    }
+
+    .col-center {
+        max-width: 50%;
     }
 
 
